@@ -42,13 +42,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Python Scripting and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        MongoDB. I have also worked with products like vcenter, velocloud 
-        and other virtualisation software's in production level project at vmware.
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am an accomplished R&D Software Engineer specializing in automation and optimization. 
+        With a strong foundation in Computer Science Engineering, I excel in automating and patching 
+        activities using Python, Groovy, and shell scripts. My experience at VMware by Broadcom has 
+        sharpened my skills in monitoring, triaging, and remediation, resulting in substantial efficiency 
+        gains. Additionally, I have interned at VMware and Moogle CC, where I honed my expertise in data analytics, 
+        software development, and project optimization. Proficient in a variety of programming languages, frameworks, 
+        and tools, I am adept at tackling diverse challenges and delivering innovative solutions. My portfolio 
+        showcases a range of personal projects, highlighting my creativity and proficiency in software development. 
+        Recognized for my achievements by AMCAT and HackerRank, I am driven to continue pushing boundaries and 
+        delivering excellence in every endeavor.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         { services.map((service, index) => (

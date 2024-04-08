@@ -9,17 +9,17 @@ import close from "./close.svg";
 
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
+import aws from "./tech/aws.png";
+import springboot from "./tech/springboot.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import rabbitmq from "./tech/rabbitmq.png";
 import jenkins from './tech/jenkins.png'
 import bash from './tech/bash.png'
-import firebase from './tech/firebase.png'
+import zipkin from './tech/zipkin.png'
 import python from './tech/python.png'
-import kubernetes from './tech/kubernetes.png'
+import mysql from './tech/mysql.jpeg'
 
 import vmware from './company/VMware.jpeg'
 import moogle from './company/moogle.png'
@@ -41,20 +41,20 @@ export {
   close,
   docker,
   git,
-  html,
-  javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
   jenkins,
   bash,
   python,
-  firebase,
+  springboot,
+  rabbitmq,
+  zipkin,
+  aws,
+  mysql,
   vmware,
   moogle,
   benzag_labs,
-  kubernetes,
   crown_clothing,
   expense_tracker,
   maynooth,

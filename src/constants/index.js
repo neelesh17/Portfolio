@@ -1,28 +1,27 @@
 import {
   mobile,
-  backend,
   creator,
   web,
-  javascript,
-  html,
   reactjs,
-  redux,
   nodejs,
   mongodb,
   git,
   docker,
   jenkins,
   bash,
-  firebase,
   python,
   vmware,
   moogle,
   benzag_labs,
-  kubernetes,
   expense_tracker,
   crown_clothing,
   maynooth,
-  yelpcamp
+  yelpcamp,
+  springboot,
+  rabbitmq,
+  zipkin,
+  aws,
+  mysql
 } from "../assets";
 
 export const navLinks = [
@@ -50,31 +49,27 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Fullstack Developer",
     icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
+  }
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "RabbitMQ",
+    icon: rabbitmq,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Zipkin",
+    icon: zipkin,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "Node JS",
@@ -85,8 +80,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Kubernetes",
-    icon: kubernetes,
+    name: "Springboot",
+    icon: springboot,
   },
   {
     name: "git",
@@ -109,8 +104,8 @@ const technologies = [
     icon: python
   },
   {
-    name: "firebase",
-    icon: firebase
+    name: "MySQL",
+    icon: mysql
   },
 ];
 
@@ -141,28 +136,28 @@ const experiences = [
     ],
   },
   {
-    title: "Intern",
+    title: "Software Developer Intern",
     company_name: "VMware",
     icon: vmware,
     iconBg: "#383E56",
     date: "Jan-2022 - July-2022",
     points: [
-      "Worked on super-collider to gather data using vdkcli and python scripting and creating charts to monitor data.",
-      "Worked with python scripting to automate data collection through super-collider job which was previously done manually",
-      "Worked with tools like wavefront, bigpanda, logz to monitor, maintain and remediate alerts for customer sddc’s"
+      "Worked on supercollider,VMware’s Data Analytics Platform, to gather data using vdkcli, python scripting and MySQL queries to creating charts for monitoring data.",
+      "Automated data collection process on VMware supercollider, using python and shell scripting.",
+      "Worked with tools like wavefront, bigpanda, logz,vSan, vCenter, NSX etc. to monitor, traige and remediate customer SDDC issues."
     ],
   },
   {
-    title: "Member of Technicla Staff - 1",
-    company_name: "VMware",
+    title: "R&D Software Engineer-1",
+    company_name: "VMware BY Broadcom",
     icon: vmware,
     iconBg: "#E6DEDD",
     date: "July 2022 - Present",
     points: [
-      "Worked on automating & patching activity for different components of the project using python and Jenkins.",
-      "Day to day activities involved monitoring, remediating and escalating customer’s software defined data center alerts",
-      "Authored RTS(Remediation & Troubleshooting Service) scripts which use python scripting for automating common day to day alerts triaging and remediation",
-      "Developed and maintained monitoring capabilities for diffent aspects of the project like backup failure, vm snapshot analysis, cert expiry etc. using python and jenkins"
+      "Work on automating & patching activities for different components of the project using python, groovy, YAML, YAQL, shell scripts etc.",
+      "Day to day activities include monitoring, traiging and remediating customer’s software defined data center(SDDC) issues, involving vSan, vCenter, NSX, and other VMware hyperscaler technologies.",
+      "Author scripts for automating triage and remediation workflow along with security & patching activities. Resulting in a 25% reduction in oncall manual workload.",
+      "Also developed multiple monitoring capabilities for different aspects of the project like rolling reboot, backup failure, vm snapshot, cert expiry etc."
     ],
   }
 ];
@@ -198,7 +193,7 @@ const projects = [
   {
     name: "Yelp Camp",
     description:
-      "A server side rendering website built for choosing campgrounds with technologies like jQuery, MongoDB, HTML, CSS, mongoose, passport, node, multer and other javascript libraries.",   
+      "The 'YelpCamp' project is a web-based platform designed for users to discover, review, and share information about campgrounds and camping experiences. Developed using HTML, CSS, JavaScript, and potentially Node.js with MongoDB, it likely includes features such as campground listings, user registration and authentication, campground reviews, search and filtering options, user profiles, and responsive design for usability across devices. The project is structured with separate directories for frontend and backend files, hosted on GitHub for version control, collaboration, and issue tracking. Documentation may be provided for setup and local development. Overall, 'YelpCamp' aims to offer users a comprehensive platform for exploring and contributing to the camping community.",   
     tags: [
       {
         name: "react",
@@ -223,7 +218,7 @@ const projects = [
   {
     name: "Crown Clothing",
     description:
-      "A client side rending e-commerce shopping website built using React, Redux, Firebase, HTML, Styled Component, NodeJS , Express, stripe for processing payments and react-lazy for optimising code",    
+      "The 'crown-clothing' project is an e-commerce platform focused on selling clothing items online. Developed with HTML, CSS, and JavaScript, it likely features a catalog of clothing products, user authentication for account creation and login, product filtering and sorting options, a shopping cart for adding items, and payment integration for secure transactions. The project is structured with separate directories for frontend and backend files, hosted on GitHub for version control and collaboration. With a responsive design, it aims to provide users with a seamless shopping experience across various devices.",    
     tags: [
       {
         name: "react",
@@ -248,7 +243,7 @@ const projects = [
   {
     name: "Maynooth Furniture",
     description:
-      "A furniture purchasing site using React, Redux, Styled Component, Express, NodeJS, PassportJS, MongoDB, Stripe for payments and react-lazy for optimising code", 
+      "The 'Mayooth Furniture' project is an online platform designed for showcasing and potentially selling furniture products. It likely features a catalog of furniture items with descriptions, images, and prices, along with functionality for user registration, authentication, and shopping cart management. Developed using HTML, CSS, JavaScript, and possibly backend technologies, the project is likely structured with separate directories for frontend and backend files. With a responsive design and version control through GitHub, the project aims to provide users with a seamless experience for browsing and purchasing furniture items online.", 
     tags: [
       {
         name: "react",
@@ -273,7 +268,7 @@ const projects = [
   {
     name: "Expense Tracker",
     description:
-      "A Voice automated expense tracker made with the help of react, speechly and chartJS. It is also a Progressive Web App, thus it can also be install as an app in both android and IOS.", 
+      "The project hosted on GitHub is an 'Expense Tracker' application designed to help users manage their finances more effectively. It allows users to log their expenses, categorize them, and visualize their spending habits over time. Key features include user authentication, expense logging with details like date and category, responsive design for accessibility across devices, and possibly visualization tools such as charts or graphs. The project is developed using HTML, CSS, JavaScript, and potentially other frameworks like Bootstrap and jQuery. It is structured with separate directories for stylesheets, JavaScript files, and third-party libraries. Overall, the project provides a platform for users to track and analyze their expenses for better financial management.", 
       tags: [
       {
         name: "react",
@@ -290,6 +285,43 @@ const projects = [
     ],
     image: expense_tracker,
     source_code_link: "https://github.com/neelesh17/Expense-Tracker",
+  },
+  {
+    name: "SpringBoot Microservices",
+    description:
+      "This project demonstrates the implementation of microservices architecture using Spring Boot, emphasizing modularity, scalability, and RESTful API design. It features a modular architecture with separate microservices communicating via RESTful APIs, integrated with databases and security measures. Developers can use it as a reference for building their own microservices-based applications, contributing to its development and learning best practices in microservices design.", 
+    tags: [
+      {
+        name: "Springboot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Microservices",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "RESTful API",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Containerization",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Database Integration",
+        color:"purple-text-gradient"
+      }
+    ],
+    image: springboot,
+    source_code_link: "https://github.com/neelesh17/springboot-microservices-project",
   }
 ];
 

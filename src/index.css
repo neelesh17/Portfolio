@@ -114,6 +114,29 @@
   -webkit-text-fill-color: transparent;
 }
 
+.yellow-text-gradient {
+  background: #ffcc00;
+  background: -webkit-linear-gradient(to right, #ffcc00, #ffcc33);
+  background: linear-gradient(to right, #ffcc00, #ffcc33);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.red-text-gradient {
+  background: #f12711;
+  background: -webkit-linear-gradient(to right, #f12711, #f5af19);
+  background: linear-gradient(to right, #f12711, #f5af19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.purple-text-gradient {
+  background: #9d50bb;
+  background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

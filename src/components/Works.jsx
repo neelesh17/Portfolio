@@ -16,7 +16,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link })
           scale:1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[320px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[420px] w-full"
       >
         <div className='relative w-full h-[230px]'>
           <img 
@@ -71,7 +71,7 @@ const Works = () => {
           problems, work with different technologies, and manage projects effectively.
         </motion.p>
       </div>
-      <div className='mt-20 flex flex-wrap gap-7 justify-between'>
+      <div className='mt-20 flex flex-wrap gap-7 justify-around'>
         {
           projects.map((project, index) => (
             <ProjectCard 

@@ -19,9 +19,9 @@ const Hero = () => {
             Neelesh</span></h1>
             <p className={`${styles.heroSubText} mt-2 
             text-white-100`}>
-              I automate tasks, monitor and
+              Experienced R&D Software Engineer adept 
               <br className='sm:block hidden'/>
-              remediate customer issues
+              at automating and optimizing processes
             </p>
         </div>
       </div>
