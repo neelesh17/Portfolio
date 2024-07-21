@@ -21,7 +21,7 @@ const Hero = () => {
             text-white-100`}>
               Experienced R&D Software Engineer adept 
               <br className='sm:block hidden'/>
-              at automating and optimizing processes
+              at Problem Solving and Software Development
             </p>
         </div>
       </div>

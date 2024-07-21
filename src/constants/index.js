@@ -45,7 +45,7 @@ const services = [
     icon: creator,
   },
   {
-    title: "Site Reliability Engineer",
+    title: "Back End Developer",
     icon: web,
   },
   {
@@ -129,10 +129,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Mar 2021 - May 2021",
     points: [
-      "Switched basic app framework from VueJS to ReactJS and implemented provided AdobeXD design Upgrades.",
-      "Applied multi-threading using web-worker for reoccurring tasks on react.",
-      "Implemented multiple lambda functions, ses templates for the company’s AWS server.",
-      "Worked on optimising and increasing the page speed score of previously built applications",
+      "Modernized the application framework by migrating from VueJS to ReactJS. Incorporated design enhancements based on AdobeXD specifications. Implemented a multi-threading strategy using web workers optimize performance.",
+      "Developed and deployed multiple AWS Lambda functions to enhance the functionality of the company’s server infrastructure. Additionally, optimized existing applications to achieve improved page load speeds."
     ],
   },
   {
@@ -142,22 +140,24 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan-2022 - July-2022",
     points: [
-      "Worked on supercollider,VMware’s Data Analytics Platform, to gather data using vdkcli, python scripting and MySQL queries to creating charts for monitoring data.",
-      "Automated data collection process on VMware supercollider, using python and shell scripting.",
-      "Worked with tools like wavefront, bigpanda, logz,vSan, vCenter, NSX etc. to monitor, traige and remediate customer SDDC issues."
+      "Established a system for comprehensive performance data collection across the fleet. Utilized Python scripting and MySQL queries to capture and ingest data to VMware Supercollider.",
+      "Mode integration facilitated the creation of analytical reports with data visualizations in chart format for monitoring purposes.",
+      "Developed workflows and automation scripts leveraging Python, YAML, YAQL, and shell scripting languages to streamline large-scale maintenance activities for VMC on Dell."
     ],
   },
   {
-    title: "R&D Software Engineer-1",
+    title: "R&D Software Engineer",
     company_name: "VMware BY Broadcom",
     icon: vmware,
     iconBg: "#E6DEDD",
     date: "July 2022 - Present",
     points: [
-      "Work on automating & patching activities for different components of the project using python, groovy, YAML, YAQL, shell scripts etc.",
-      "Day to day activities include monitoring, traiging and remediating customer’s software defined data center(SDDC) issues, involving vSan, vCenter, NSX, and other VMware hyperscaler technologies.",
-      "Author scripts for automating triage and remediation workflow along with security & patching activities. Resulting in a 25% reduction in oncall manual workload.",
-      "Also developed multiple monitoring capabilities for different aspects of the project like rolling reboot, backup failure, vm snapshot, cert expiry etc."
+      "Worked on monitoring, triaging & remediating Software Defined Data Center(SDDC) issues.",
+      "Automated and patched infrastructure components including AWS, vSphere, NSX, vSAN, and other elements of the VMware Suite using Python, Groovy, YAML, YAQL, and Bash scripting.",
+      "Implemented a centralized data store leveraging MySQL and VMware Supercollider Data Lake to synchronize Jenkins pipelines, achieving a 40% reduction in errors across dependent pipelines.",
+      "Developed and maintained 15+ Jenkins pipelines for VMware Cloud on Dell EMC fleet. Incorporated certificate & performance monitoring, & patch uploading to Amazon S3 storage, utilizing Java, Python, Groovy, MySQL, and APIs.",
+      "Automated the deployment of microcode security patches for VMC on Dell fleets using Python scripts. Minimized human intervention & increased overall efficiency by 25%.",
+      "Contributed to 90+ auto triage and remediation workflows creation & bug fixes helping reduce the manual intervention for known issue resolution by 50%."
     ],
   }
 ];
