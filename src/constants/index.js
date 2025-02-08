@@ -11,6 +11,7 @@ import {
   bash,
   python,
   vmware,
+  goldman,
   moogle,
   benzag_labs,
   expense_tracker,
@@ -150,14 +151,27 @@ const experiences = [
     company_name: "VMware BY Broadcom",
     icon: vmware,
     iconBg: "#E6DEDD",
-    date: "July 2022 - Present",
+    date: "July 2022 - July 2024",
     points: [
-      "Worked on monitoring, triaging & remediating Software Defined Data Center(SDDC) issues.",
+      "Increased monitoring, triaging & remediating coverage for Software Defined Data Center(SDDC) by 30%.",
       "Automated and patched infrastructure components including AWS, vSphere, NSX, vSAN, and other elements of the VMware Suite using Python, Groovy, YAML, YAQL, and Bash scripting.",
       "Implemented a centralized data store leveraging MySQL and VMware Supercollider Data Lake to synchronize Jenkins pipelines, achieving a 40% reduction in errors across dependent pipelines.",
       "Developed and maintained 15+ Jenkins pipelines for VMware Cloud on Dell EMC fleet. Incorporated certificate & performance monitoring, & patch uploading to Amazon S3 storage, utilizing Java, Python, Groovy, MySQL, and APIs.",
       "Automated the deployment of microcode security patches for VMC on Dell fleets using Python scripts. Minimized human intervention & increased overall efficiency by 25%.",
-      "Contributed to 90+ auto triage and remediation workflows creation & bug fixes helping reduce the manual intervention for known issue resolution by 50%."
+      "Implemented and Managed 90+ auto triage and remediation workflows creation & bug fixes helping reduce the manual intervention for known issue resolution by 50%."
+    ],
+  },
+  {
+    title: "Analyst",
+    company_name: "Goldman Sachs",
+    icon: goldman,
+    iconBg: "#383E56",
+    date: "Nov 2024 - Present",
+    points: [
+      "Created ETL(Extract, Transform, Load) Big Data Pipelines and updated current pipelines to use iceberg, instead of Parquet and Hbase formats.",
+      'Worked with Scala, Spark, Java, Sqoop, Datalake and AutoSys to create and maintain data pipelines.",
+      "Upgraded the ETL Pipeline Codebase to use Spark 3.5.0 from spark 2.x as a part of integrating iceberg to the whole code base.",
+      "Added interactive password to Sqoop for creating datalake sessions instead of static password."
     ],
   }
 ];
