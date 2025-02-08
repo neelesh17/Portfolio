@@ -24,6 +24,7 @@ import mysql from './tech/mysql.jpeg'
 import vmware from './company/VMware.jpeg'
 import moogle from './company/moogle.png'
 import benzag_labs from './company/benzag-labs.png'
+import goldman from './company/goldman-sachs.png'
 
 import crown_clothing from './crown_clothing.png'
 import expense_tracker from './expense_tracker.png'
@@ -55,6 +56,7 @@ export {
   vmware,
   moogle,
   benzag_labs,
+  goldman,
   crown_clothing,
   expense_tracker,
   maynooth,
