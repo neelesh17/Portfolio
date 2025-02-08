@@ -169,7 +169,7 @@ const experiences = [
     date: "Nov 2024 - Present",
     points: [
       "Created ETL(Extract, Transform, Load) Big Data Pipelines and updated current pipelines to use iceberg, instead of Parquet and Hbase formats.",
-      'Worked with Scala, Spark, Java, Sqoop, Datalake and AutoSys to create and maintain data pipelines.",
+      "Worked with Scala, Spark, Java, Sqoop, Datalake and AutoSys to create and maintain data pipelines.",
       "Upgraded the ETL Pipeline Codebase to use Spark 3.5.0 from spark 2.x as a part of integrating iceberg to the whole code base.",
       "Added interactive password to Sqoop for creating datalake sessions instead of static password."
     ],
